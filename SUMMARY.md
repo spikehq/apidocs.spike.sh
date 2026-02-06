@@ -1,47 +1,13 @@
 # Table of contents
 
-* [Page](README.md)
-* [About](about.md)
-* [API reference](api-reference/README.md)
-  * [Incidents](api-reference/incidents/README.md)
-    * [Create](api-reference/incidents/create.md)
-    * [Get previous incidents](api-reference/incidents/get-previous-incidents.md)
-    * [Incident context](api-reference/incidents/incident-context.md)
-    * [Activity log](api-reference/incidents/activity-log.md)
-    * [Triggered](api-reference/incidents/triggered.md)
-    * [Acknowledged](api-reference/incidents/acknowledged.md)
-    * [Assigned to user](api-reference/incidents/assigned-to-user.md)
-    * [Acknowledge](api-reference/incidents/acknowledge.md)
-    * [Resolve](api-reference/incidents/resolve.md)
-    * [Escalate](api-reference/incidents/escalate.md)
-    * [Priority](api-reference/incidents/priority.md)
-    * [Severity](api-reference/incidents/severity.md)
-  * [Services](api-reference/services/README.md)
-    * [Create](api-reference/services/create.md)
-    * [Affected](api-reference/services/affected.md)
-  * [On calls](api-reference/on-calls.md)
-  * [Integrations](api-reference/integrations/README.md)
-    * [Available](api-reference/integrations/available.md)
-    * [Create](api-reference/integrations/create.md)
-    * [Archive](api-reference/integrations/archive.md)
-  * [Orgs](api-reference/orgs/README.md)
-    * [Members](api-reference/orgs/members.md)
-    * [Info](api-reference/orgs/info.md)
-  * [Teams](api-reference/teams/README.md)
-    * [Get all teams](api-reference/teams/get-all-teams.md)
-    * [Get my teams](api-reference/teams/get-my-teams.md)
-  * [Oncalls](api-reference/oncalls/README.md)
-    * [Am i on call](api-reference/oncalls/am-i-on-call.md)
-    * [Upcoming shifts](api-reference/oncalls/upcoming-shifts.md)
-  * [Status page](api-reference/status-page/README.md)
-    * [All](api-reference/status-page/all.md)
-    * [Component](api-reference/status-page/component/README.md)
-      * [Create](api-reference/status-page/component/create.md)
-    * [Incidents](api-reference/status-page/incidents.md)
-    * [Planned maintenance](api-reference/status-page/planned-maintenance/README.md)
-      * [Upcoming](api-reference/status-page/planned-maintenance/upcoming.md)
-      * [Create](api-reference/status-page/planned-maintenance/create.md)
-    * [Subscribers](api-reference/status-page/subscribers.md)
-    * [Incident](api-reference/status-page/incident/README.md)
-      * [New](api-reference/status-page/incident/new.md)
-* [Specification](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNLB9FQhEwQrXB9iPckzG%2Fimports%2FzGhXUyIKhHcjwKpDIUll%2Fopenapi.yml?alt=media\&token=0336b824-f3bd-4fcc-a98d-2973aa76d7b8)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+    downloadLink: true
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: Spike
+  ```
